@@ -1,0 +1,121 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/blink"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Blink" />
+
+        <Button
+            android:id="@+id/bounce"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bounce" />
+
+        <Button
+            android:id="@+id/move"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Move" />
+
+        <Button
+            android:id="@+id/rotate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Rotate" />
+
+        <Button
+            android:id="@+id/fadein"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Fade In" />
+
+        <Button
+            android:id="@+id/fadeout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Fade Out" />
+
+        <Button
+            android:id="@+id/bottomup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bottom Up" />
+
+        <Button
+            android:id="@+id/bottomdown"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bottom Down" />
+
+        <Button
+            android:id="@+id/topin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="In from Top" />
+
+        <Button
+            android:id="@+id/topout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Out from Top" />
+
+        <Button
+            android:id="@+id/slide_in_right"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Slide in Right" />
+
+        <Button
+            android:id="@+id/slide_out_right"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Slide out Right" />
+
+        <Button
+            android:id="@+id/slide_in_left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Slide in Left" />
+
+        <Button
+            android:id="@+id/slide_out_left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Slide out Left" />
+
+        <Button
+            android:id="@+id/zoomin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Zoom In" />
+
+        <Button
+            android:id="@+id/zoomout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Zoom Out" />
+
+        <Button
+            android:id="@+id/together"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Together" />
+
+        <Button
+            android:id="@+id/sequential"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sequential" />
+    </LinearLayout>
+
+</ScrollView>
